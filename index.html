@@ -3,166 +3,81 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Keyframes CSS</title>
+    <title>MOTION Studio</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
   </head>
   <body>
-<a href="projeto-final.html" class="voltar">
-    ← Voltar
-</a>
-    <header>
-      <h1>Animações com Keyframes</h1>
+    <div class="loaderoverlay">
+      <span class="loaderlogo">MOTION</span>
+      <div class="loader"></div>
+    </div>
+    <header class="header">
+      <div class="logo">MOTION</div>
+      <nav class="nav">
+        <a href="#">Home</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#galeria">Galeria</a>
+        <a href="#contato">Contato</a>
+      </nav>
     </header>
-    <nav>
-      <a href="#facil" class="facil">Nível fácil</a>
-      <a href="#medio" class="medio">Nível médio</a>
-      <a href="#dificil" class="dificil">Nível difícil</a>
-      <a href="#extra" class="extra">Extras</a>
-    </nav>
-    <main>
-      <h2 class="facil" id="facil">Nível fácil</h2>
-      <section>
-        <h2>Mudar de cor</h2>
-        <article>
-          <div class="caixa"></div>
-        </article>
-      </section>
-      <section>
-        <h2>Imagem giratória</h2>
-        <article>
-          <div class="img">
-            <img src="Trollface.png" width="150" />
-          </div>
-        </article>
-      </section>
-      <section>
-        <h2>Texto piscando</h2>
-        <article>
-          <div class="piscando">Texto piscando</div>
-        </article>
-      </section>
-      <h2 class="medio" id="medio">Nível médio</h2>
-      <section>
-        <h2>Botão com hover</h2>
-        <article>
-          <div class="botao">
-            <button type="button">Clique aqui</button>
-          </div>
-        </article>
-      </section>
-      <section>
-        <h2>Bola quicante</h2>
-        <article>
-          <div class="bola"></div>
-        </article>
-      </section>
-      <section>
-        <h2>Menu suave</h2>
-        <article>
-          <div class="menu">
-            <nav>
-              <a>Home</a>
-              <a>Sobre</a>
-              <a>Cursos</a>
-              <a>Contato</a>
-            </nav>
-          </div>
-        </article>
-      </section>
-      <h2 class="dificil" id="dificil">Nível difícil</h2>
-      <section>
-        <h2>Carrossel automático</h2>
-        <article>
-          <div class="carrossel">
-            <div class="slides">
-              <img src="https://picsum.photos/id/1015/700/400" />
-              <img src="https://picsum.photos/id/1016/700/400" />
-              <img src="https://picsum.photos/id/1018/700/400" />
-              <img src="https://picsum.photos/id/1020/700/400" />
-            </div>
-          </div>
-        </article>
-      </section>
-      <section>
-        <h2>Tela de carregamento</h2>
-        <article>
-          <div class="loader"></div>
-        </article>
-      </section>
-      <section>
-        <h2>Fundo animado</h2>
-        <article>
-          <div class="fundoanimado"></div>
-        </article>
-      </section>
-      <section>
-        <h2>Banner animado</h2>
-        <article>
-          <div class="banner">
-            <h1>Banner Animado</h1>
-            <span>utilizando css e Keyframes</span>
-            <br />
-            <br />
-            <br />
-            <div class="botao">
-              <button type="button">Começar</button>
-            </div>
-          </div>
-        </article>
-      </section>
-      <h2 class="extra" id="extra">Extras</h2>
-      <section>
-        <h2>Glitch</h2>
-        <article>
-          <strong class="glitch">Glitch</strong>
-        </article>
-      </section>
-      <section>
-        <h2>Metamorfose</h2>
-        <article>
-          <div class="metamorfose"></div>
-        </article>
-      </section>
-      <section>
-        <h2>Órbita</h2>
-        <article>
-          <div class="orbita">
-            <div class="centro"></div>
-            <div class="anel anel1"><div class="planeta planeta1"></div></div>
-            <div class="anel anel2"><div class="planeta planeta2"></div></div>
-            <div class="anel anel3"><div class="planeta planeta3"></div></div>
-          </div>
-        </article>
-      </section>
-      <section>
-        <h2>Revelação de Texto</h2>
-        <article>
-          <p class="revelar">
-            <span>Revelação</span>
-            <span>de</span>
-            <span>Texto</span>
-          </p>
-        </article>
-      </section>
-      <section>
-        <h2>Scanner</h2>
-        <article>
-          <figure class="scanner">
-            <img src="https://picsum.photos/id/1025/700/400" />
-            <div class="linha-scan"></div>
-          </figure>
-        </article>
-      </section>
-      <section>
-        <h2>Máquina de Escrever</h2>
-        <article>
-          <p class="maquinadeescrever">Máquina de Escrever</p>
-        </article>
-      </section>
-    </main>
-    <footer>
-      <a href="#">Voltar ao topo</a>
-
-    </footer>
+    <section class="capa">
+      <h1>MOTION STUDIO</h1>
+      <p class="capafrase">
+        Movimento é o que transforma um site em uma experiência.
+      </p>
+      <a class="capabotao" href="#sobre">Ver nosso trabalho</a>
+    </section>
+    <section class="sobre" id="sobre">
+      <h2>Sobre nós</h2>
+      <p class="sobretexto">
+        Somos um estúdio especializado em animação e interfaces web. Fazemos o
+        site se mover do jeito certo.
+      </p>
+      <div class="sobregrid">
+        <div class="sobreitem">
+          <strong>Design</strong>
+          <span>Interfaces pensadas para funcionar bem e parecer boas.</span>
+        </div>
+        <div class="sobreitem">
+          <strong>Animação</strong>
+          <span>Animações leves, fluidas e integradas ao layout.</span>
+        </div>
+        <div class="sobreitem">
+          <strong>Performance</strong>
+          <span>Leve em qualquer tela, sem comprometer o visual.</span>
+        </div>
+      </div>
+    </section>
+    <section class="servicos" id="servicos">
+      <h2>Serviços</h2>
+      <div class="cards">
+        <div class="card">Design de Interfaces</div>
+        <div class="card">Animações</div>
+        <div class="card">Páginas de Destaque</div>
+      </div>
+    </section>
+    <section class="galeria" id="galeria">
+      <h2>Galeria</h2>
+      <div class="carrossel">
+        <div class="slides">
+          <img src="img/carrossel1.png" />
+          <img src="img/carrossel2.png" />
+          <img src="img/carrossel3.png" />
+          <img src="img/carrossel4.png" />
+        </div>
+      </div>
+      <a href="gallery/animacoes.html" class="galeriabotao">
+        Ver nossa galeria <span class="icone">↗</span>
+      </a>
+    </section>
+    <section class="contato" id="contato">
+      <h2>Contato</h2>
+      <p class="contatotexto">Tem um projeto? Fale conosco.</p>
+      <a class="contatobotao" href="mailto:contato@motionstudio.com"
+        >Nos contate</a
+      >
+    </section>
   </body>
 </html>
