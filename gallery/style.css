@@ -313,16 +313,113 @@ footer a:hover {
   animation: slide 16s infinite ease-in-out;
 }
 
-.slides img {
+.slide {
   width: 700px;
   height: 400px;
   flex-shrink: 0;
-  display: block;
-  transition: transform 0.5s;
 }
 
-.slides img:hover {
-  transform: scale(1.05);
+.comparacao {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.metade {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 22px;
+}
+
+.metade span {
+  font-family: "Space Mono", monospace;
+  font-size: 12px;
+  letter-spacing: 3px;
+}
+
+.antes {
+  background: #111;
+  border-right: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.antes span {
+  color: #666;
+}
+
+.depois {
+  background: radial-gradient(circle at top, rgba(199, 125, 255, 0.16), transparent), linear-gradient(135deg, #140028, #240046);
+}
+
+.depois span {
+  color: #c77dff;
+}
+
+.antes button {
+  padding: 12px 24px;
+  border: none;
+  background: #333;
+  color: #888;
+  border-radius: 4px;
+}
+
+.depois button {
+  padding: 13px 30px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #6a00ff, #c77dff);
+  color: #fff;
+  border: none;
+  font-weight: 600;
+  box-shadow: 0 0 24px rgba(106, 0, 255, 0.4);
+  animation: flutuar 2s ease-in-out infinite;
+}
+
+.texto-sem {
+  color: #777;
+  font-size: 32px;
+}
+
+.texto-com {
+  font-size: 36px;
+  font-weight: 700;
+  color: white;
+  animation: neon 1.8s infinite alternate;
+}
+
+.quadrado-sem {
+  width: 120px;
+  height: 120px;
+  background: #333;
+  border-radius: 8px;
+}
+
+.quadrado-com {
+  width: 120px;
+  height: 120px;
+  border-radius: 24px;
+  background: linear-gradient(135deg, #6a00ff, #c77dff);
+  animation: metamorfose 6s ease-in-out infinite;
+  box-shadow: 0 0 30px rgba(106, 0, 255, 0.45);
+}
+
+.loader-sem {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  border: 10px solid #333;
+}
+
+.loader-com {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  border: 10px solid rgba(106, 0, 255, 0.12);
+  border-top: 10px solid #6a00ff;
+  border-right: 10px solid #c77dff;
+  animation: girar 1s linear infinite;
+  box-shadow: 0 0 20px rgba(106, 0, 255, 0.4);
 }
 
 .loader {
