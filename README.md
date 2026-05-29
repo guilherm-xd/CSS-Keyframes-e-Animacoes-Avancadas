@@ -1,4 +1,4 @@
-# Motion Studio — Interfaces em Movimento
+# Motion Studio - Interfaces em Movimento
 
 Uma landing page moderna e criativa desenvolvida apenas com HTML e CSS, focada em animações avançadas, efeitos visuais e microinterações. O projeto explora o uso intensivo de @keyframes para criar uma experiência visual dinâmica sem JavaScript.
 
